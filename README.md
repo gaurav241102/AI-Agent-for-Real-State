@@ -1,4 +1,4 @@
-# GrowEasy AI Agent
+# AI Agent for Lead Qualification
 
 A conversational AI agent built with React and Node.js that helps qualify leads for different industries using the Groq AI API. This project was developed as part of the AI Full Stack Developer Assessment for GrowEasy.
 
