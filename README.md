@@ -50,8 +50,8 @@ This project implements a WhatsApp-like chat interface that:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/gaurav241102/groweasy-assessment.git
-cd groweasy-assessment
+git clone https://github.com/gaurav241102/AI-Agent-for-Real-State.git
+cd AI-Agent-for-Real-State
 ```
 
 2. Set up the backend:
@@ -162,39 +162,3 @@ Example configuration for real estate:
   }
 }
 ```
-
-## 📝 Sample Chat Transcripts
-
-### Hot Lead Example
-```
-AI: Hi Rohit! Thanks for reaching out. I'm your GrowEasy real estate assistant. Could you share which city/location you're looking for?
-User: Pune, preferably near Kalyani Nagar.
-AI: Great! Are you looking for a flat, villa, or plot? Also, is this for investment or personal use?
-User: 2BHK flat for personal use. Need to move in within 3 months.
-AI: Understood! What's your budget range?
-User: Max 75L.
-```
-
-Classification: Hot
-Metadata:
-- Location: Pune (Kalyani Nagar)
-- Property Type: 2BHK Flat
-- Budget: ₹75L
-- Timeline: 3 months
-- Purpose: Personal use
-
-## 📧 Submission Details
-
-This project was submitted to:
-- varun@groweasy.ai
-- CC: tej@groweasy.ai
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Groq AI for providing the AI capabilities
-- React team for the amazing frontend framework
-- Express.js team for the backend framework 
