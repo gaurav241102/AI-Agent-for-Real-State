@@ -1,0 +1,22 @@
+{
+    "real_estate": {
+      "industry_name": "Real Estate",
+      "agent_name": "GrowEasy Realtor",
+      "location_context": "Pune, India",
+      "initial_greeting": "Hi {lead_name}! Thanks for reaching out. I’m your GrowEasy real estate assistant.",
+      "qualifying_questions": [
+        "To start, could you share which city or specific location you’re looking for a property in?",
+        "Great! Are you looking for a flat, villa, or a plot of land? And is this for personal use or investment?",
+        "Understood. What is your approximate budget range? (e.g., 50L–80L)",
+        "And what is your timeline for moving in or finalizing the purchase? (e.g., within 3 months, 6 months, etc.)",
+        "Perfect. To confirm, I have you down for a {property_type} in {location} with a budget of {budget}. Is that right? Would you like to schedule a site visit this week?"
+      ],
+      "qualification_rules": {
+        "hot": "Lead provides clear answers to location, budget, and has a timeline of less than 6 months. Shows high intent and agrees to a next step like a site visit.",
+        "cold": "Lead is 'just browsing', has a vague budget or timeline (more than 6 months), or becomes unresponsive to direct questions.",
+        "invalid": "Lead provides gibberish, non-serious answers, or is clearly a test/spam entry."
+      },
+      "metadata_to_extract": ["Location", "Property Type", "Budget", "Timeline", "Purpose (Personal/Investment)"]
+    }
+  }
+  
